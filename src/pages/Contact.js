@@ -39,7 +39,7 @@ const Contact = () => {
       {/* Phone Call Link */}
       <div className="phone-call">
         <p>You can also call us:</p>
-        <a href="tel:+1234567890" className="phone-link">📞 +91 9947768714</a>
+        <a href="tel:+9947768714" className="phone-link">📞 +91 9947768714</a>
       </div>
 
       {/* Email Form */}
