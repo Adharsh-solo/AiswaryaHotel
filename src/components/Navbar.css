@@ -1,0 +1,49 @@
+.nav{
+   display: flex; 
+   justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+}
+.nav-right ul{
+    display: flex;
+    gap: 50px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.nav-right ul .link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.nav-right ul li{
+    list-style: none;
+}
+.nav-right .menu-icon{
+    width: 28px;
+    height: 28px;
+    display: none;
+}
+@media screen and (max-width: 400px) {
+    
+    .nav-right ul{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       margin-left: -400px;
+       margin-top: 60px;
+       display: none;
+       position: absolute;
+       background-color: white;
+       width: 400px;
+       z-index: 1000;
+    }
+    .nav-right ul.active{
+        display: flex;
+    }
+    .nav-right .menu-icon{
+        margin-left: -20px;
+        margin-top: 20px;
+        display: block;
+    }
+}

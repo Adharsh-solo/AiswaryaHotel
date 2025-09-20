@@ -1,0 +1,53 @@
+.dish-row{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+
+}
+.dish-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+.dish-card h2{
+    font-size: 18px;
+}
+.dish-row .dish-card .dish-img{
+    width: 270px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.dish-row .dish-card .quantity-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.dish-row .dish-card .quantity-buttons .icon-button{
+    width: 20px;
+    height:20px;
+}
+.reminder{
+text-align: center;
+padding: 10px;
+margin: 55px;
+background-color: #f8f8f8;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.reminder h2{
+    color: rgb(171, 16, 16);
+    font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+    .reminder{
+       margin: 38px;
+    }
+    
+}

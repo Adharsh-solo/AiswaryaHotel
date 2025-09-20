@@ -1,0 +1,20 @@
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.home-left h2{
+    font-size:30px ;
+    margin-top: 50px;
+}
+.home-left p{
+    font-size: 18px;
+}
+.home-right img{
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 50%;
+}
